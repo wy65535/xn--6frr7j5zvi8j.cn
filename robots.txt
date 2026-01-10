@@ -1,0 +1,37 @@
+# robots.txt for 硅基流动.cn
+
+User-agent: *
+Allow: /
+
+# 主要页面
+Allow: /index.html
+Allow: /comparison.html
+Allow: /tutorial.html
+Allow: /faq.html
+Allow: /privacy.html
+
+# 静态资源
+Allow: /styles.css
+Allow: /script.js
+
+# Sitemap
+Sitemap: https://硅基流动.cn/sitemap.xml
+
+# 爬虫友好设置
+Crawl-delay: 1
+
+# 特定搜索引擎优化
+User-agent: Googlebot
+Allow: /
+
+User-agent: Baiduspider
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: Sogou web spider
+Allow: /
+
+User-agent: 360Spider
+Allow: /
