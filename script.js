@@ -154,3 +154,4 @@ function initFAQToggle() {
 if (window.location.pathname.includes('faq.html')) {
     document.addEventListener('DOMContentLoaded', initFAQToggle);
 }
+
